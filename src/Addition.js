@@ -1,7 +1,5 @@
 import React from "react";
 
-const Addition = () => {
+export const Addition = () => {
     return 10 + 20
 }
-
-export default Addition;
