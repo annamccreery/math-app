@@ -8,6 +8,6 @@ const App = () => {
       <Addition />
     </>
   );
-}
+};
 
 export default App;
