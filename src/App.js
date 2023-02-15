@@ -1,8 +1,8 @@
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <h1>Test</h1>
     </div>
   );
