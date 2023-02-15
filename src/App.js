@@ -5,7 +5,8 @@ import { Addition } from './Addition'
 const App = () => {
   return (
     <>
-      <Addition />
+      <Addition numberOne={10} numberTwo={20} />
+      <Addition numberOne={50} numberTwo={100} />
     </>
   );
 };
