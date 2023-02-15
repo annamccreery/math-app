@@ -1,8 +1,9 @@
 div {
   color: #fc7404;
-  background-color: black;
-  border: 2px solid white;
+  background-color: rgb(12, 17, 77);
+  border: 2px solid #fc7404;
   padding: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
+
