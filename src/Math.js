@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Addition = ({numberOne, numberTwo}) => {
+export const Math = ({numberOne, numberTwo}) => {
     return (
         <div>
             <h2>

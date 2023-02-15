@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.css';
-import { Addition } from './Addition'
+import { Math } from './Math'
 
 const App = () => {
+  const styles = {
+    container: {
+      padding: 20,
+      border: "2px solid pink"
+    }
+  }
+
   return (
-    <>
-      <Addition numberOne={10} numberTwo={20} />
-      <Addition numberOne={50} numberTwo={100} />
-    </>
+    <div style={styles.container}>
+      <Math numberOne={10} numberTwo={20} />
+      <Math numberOne={50} numberTwo={100} />
+    </div>
   );
 };
 
