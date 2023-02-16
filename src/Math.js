@@ -1,8 +1,9 @@
-import React from "react";
+
+import './App.css';
 
 export const Math = ({numberOne, numberTwo}) => {
     return (
-        <div>
+        <div className='container'>
             <h2>
                 {numberOne} + {numberTwo} = {(numberOne + numberTwo).toFixed(1)}
             </h2>
