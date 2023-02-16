@@ -3,7 +3,7 @@ import './App.css';
 
 export const Math = ({numberOne, numberTwo}) => {
     return (
-        <div className='container'>
+        <div>
             <h2>
                 {numberOne} + {numberTwo} = {(numberOne + numberTwo).toFixed(1)}
             </h2>

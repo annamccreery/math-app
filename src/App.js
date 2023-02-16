@@ -7,9 +7,8 @@ const App = () => {
     <>
         <Darkmode />
 
-
-          <Math numberOne={10} numberTwo={20} />
-          <Math numberOne={1} numberTwo={18} />
+        <Math numberOne={10} numberTwo={20} />
+        <Math numberOne={1} numberTwo={18} />
     </>
 
   );
